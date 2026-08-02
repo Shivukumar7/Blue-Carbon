@@ -1,0 +1,13 @@
+{
+  "name": "bluecarbon",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Blue Carbon Registry — coastal restoration, community stewardship credits, and an open credit marketplace.",
+  "scripts": {
+    "install:all": "npm --prefix server install && npm --prefix client install",
+    "db:reset": "npm --prefix server run reset",
+    "dev:server": "npm --prefix server run dev",
+    "dev:client": "npm --prefix client run dev",
+    "build": "npm --prefix client run build"
+  }
+}
